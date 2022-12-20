@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(181, 214, 243);
+}
+.modal-box{
+    height: 3rem;
+    width: 6rem;
+    cursor: pointer;
+}
+.modal-container{
+    display: none;
+    height: 60vh;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.modal-wrapper{
+    display:flex ;
+}
+.modal-content-left{
+    width: 30%;
+    height: 60vh;
+    background-color: aqua;
+}
+.modal-content-right{
+    width: 70%;
+    height: 60vh;
+    background-color: aquamarine;
+}
+.modal-form{
+    width: 60%;
+    display:flex;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    /* justify-content:center ; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+.modal-form input{
+    margin: 1rem 0rem;
+    height: 1.5rem;
+    padding: 5px;
+}
+.modal-form button{
+    width: 5rem;
+    cursor: pointer;
+}
+#close-modal{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
